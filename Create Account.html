@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body background="data:image/jpeg;base64,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"><div class="container">
+        <div class="row g-3">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"></div>
+               
+            <table  class="table_boderless">
+                <tr><h1><b>Create Account</b></h1></tr>
+            
+                <tr>
+                    <td><input type="text" class="form-control" value="Enter Phone Number"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" class="form-control" value ="Enter Name"></td>
+                </tr>
+                <tr>
+                   <td><input type="email" class="form-control" value="Enter Email"></td>
+        
+                </tr>
+                <tr>
+                     <td><!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Have a referal code?
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Referal Code</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                            <input type="text" class="form-control">
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
+                                <button type="button" class="btn btn-primary">Save</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div></td>
+                </tr>
+                    
+                <tr>
+                    <td></td>
+                <td><button class="btn btn-dark">SUBMIT</button></td>
+            </tr>
+                
+            </table>
+        </div>
+        
+    </div>
+    
+    
+   <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+</body>
+</html>
